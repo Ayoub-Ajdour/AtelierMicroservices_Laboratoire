@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Configuration_svc" />
+        <module name="Enseignant_svc" />
+        <module name="Chercheur_svc" />
+        <module name="Projet-svc" />
+        <module name="Discovery_svc" />
+        <module name="Gateway_svc" />
+        <module name="Security" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Config_repo" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Chercheur_svc" options="-parameters" />
+      <module name="Config_repo" options="-parameters" />
+      <module name="Configuration_svc" options="-parameters" />
+      <module name="Discovery_svc" options="-parameters" />
+      <module name="Enseignant_svc" options="-parameters" />
+      <module name="Gateway_svc" options="-parameters" />
+      <module name="Projet-svc" options="-parameters" />
+      <module name="Security" options="-parameters" />
+    </option>
+  </component>
+</project>
